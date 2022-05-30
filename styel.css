@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-
+  box-sizing: border-box;
 }
 body{
   background-image: url(https://assets.atdw-online.com.au/images/a11021df8ac18bcfc096922562e5b24f.jpeg?rect=222);
