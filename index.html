@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Oh Crud! Things I Forgot To-Do</title>
+  <link rel="stylesheet" type="text/css" href="styel.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body class="bo">
+  
+  
+      <img class="logo" src="logo.png" alt="logo">
+     <p> <em> To-Do welcome you ! </em> 
+      <details>
+        1:if you want to Add a Text then simple put a sentance in input section and click  &#128517 <br>
+        2:if you want to Edit a Text then simple put a sentance in input section and click  &#9757 <br>
+        3:if you want to Delet a Text then simple put a sentance in input section and click &#9757 <br>
+        4:if you want how many text i have done so you check your You have down line suggest how many task you done  &#9757
+      </details>
+      
+ 
+
+    <div class="title">
+        <h1>Oh Crud!</h1>
+        <p>Things I forgot to do:</p>
+    </div>
+
+<div class="form">
+    <form action="javascript:void(0);" method="POST" onsubmit="app.Add()"> 
+    <input type="text" id="add-todo" placeholder="Thing To-Do">
+    <input type="submit" value="Add" class="btn btn-primary">
+    </form>
+    <p>You Have: </p>
+    <p id="counter"></p>
+   
+
+    <table>
+    <tr class="to-do">
+        <th><h3>To-Do:</h3></th>
+    </tr>
+        <tbody id="tasks">
+        </tbody>
+    </table>
+</div>
+
+<div id="edit-box" role="aria-hidden">
+    <form action="javascript:void(0);" method="POST" id="save-edit">
+      <input type="text" id="edit-todo">
+      <input type="submit" value="Save" class="btn btn-success"/> <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
+    </form>
+  </div>
+
+
+<div class="footer"><em>&#9757 All copyWrite by Jitu yadav 2000-2022</em></div>
+<script src="script.js"></script>
+</body>
+</html>
