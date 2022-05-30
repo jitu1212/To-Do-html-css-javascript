@@ -5,7 +5,7 @@
 }
 body{
   background-image: url(https://assets.atdw-online.com.au/images/a11021df8ac18bcfc096922562e5b24f.jpeg?rect=222);
-  
+  background-position: fixed;
 }
   .title{
     text-align: center;
